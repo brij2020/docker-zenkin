@@ -2,9 +2,9 @@
     "apps" : [
       {
         "name"      : "jenkins",
-        "script"    : "npm",
+        "script"    : "serve",
         "interpreter": "none",
-        "args": "serve -s build -p 3002"
+        "args": "build -p 3002"
       }
     ]
 }
